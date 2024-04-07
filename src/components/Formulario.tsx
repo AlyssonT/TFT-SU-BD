@@ -33,7 +33,7 @@ export function Formulario({ handleSolution }: FormularioProps) {
     setIsLoading(true);
     try {
       const responseChampions = await axios.get(
-        `http://192.168.2.108:3001/solve/${nChampions}`,
+        `https://tft-su-bd-api.shuttleapp.rs/solve/${nChampions}`,
         {
           params: {
             high_tier: highTier,

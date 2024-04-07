@@ -29,7 +29,7 @@ export function HomePage() {
     setIsLoading(true);
     try {
       const responseTraits = await axios.get(
-        "http://192.168.2.108:3001/traits"
+        "https://tft-su-bd-api.shuttleapp.rs/traits"
       );
       handleTraits(responseTraits.data);
     } catch (error) {
