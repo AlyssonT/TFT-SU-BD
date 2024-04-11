@@ -22,7 +22,7 @@ interface FormularioProps {
 }
 
 export function Formulario({ handleSolution }: FormularioProps) {
-  const [nChampions, setNChampions] = useState(1);
+  const [nChampions, setNChampions] = useState<number | "">(1);
   const [augment, setAugment] = useState("standUnited");
   const [highTier, setHighTier] = useState(false);
   const [tierCoefficient, setTierCoefficient] = useState(1.0);
@@ -52,6 +52,10 @@ export function Formulario({ handleSolution }: FormularioProps) {
 
   const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value;
+    if (!value) {
+      setNChampions("");
+      return;
+    }
     const input = parseInt(value);
     if ((isNaN(input) && value !== "") || input < 1 || input > 11) return;
     else setNChampions(input);
@@ -78,7 +82,6 @@ export function Formulario({ handleSolution }: FormularioProps) {
     }
     if ((isNaN(input) && value !== "") || input < 0 || input > 5.0) return;
 
-    
     setTierCoefficient(input);
   };
 
@@ -141,10 +144,10 @@ export function Formulario({ handleSolution }: FormularioProps) {
                   mt: 1,
                 }}
               >
-                <Typography fontSize={12} color={"primary"}>
+                <Typography fontSize={12} color={"primary"} align="justify">
                   The higher the coefficient, the more the algorithm will try to
                   insert champions with a higher tier, but it will sacrifice a
-                  little in terms of the number of synergies.
+                  little in terms of the number of traits.
                 </Typography>
               </Paper>
             </>
@@ -185,7 +188,7 @@ export function Formulario({ handleSolution }: FormularioProps) {
               type="submit"
               variant="outlined"
               disabled={isLoading}
-              endIcon={ isLoading && <CircularProgress size={15} />}
+              endIcon={isLoading && <CircularProgress size={15} />}
             >
               Generate
             </Button>

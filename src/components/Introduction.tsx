@@ -19,7 +19,7 @@ export function Introduction() {
           Remember that different compositions will be generated with each
           attempt. The generated composition is not necessarily the best
           possible as there are several other characteristics not considered in
-          the calculation. The main thing here is the number of synergies.
+          the calculation. The main thing here is the number of traits.
         </Typography>
       </Paper>
     </Box>
