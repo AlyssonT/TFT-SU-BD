@@ -1,0 +1,482 @@
+{
+  "Ahri": {
+    "id": "Ahri",
+    "name": "Ahri",
+    "tier": 2,
+    "image": {
+      "full": "TFT12_Ahri.TFT_Set12.png"
+    }
+  },
+  "Akali": {
+    "id": "Akali",
+    "name": "Akali",
+    "tier": 2,
+    "image": {
+      "full": "TFT12_Akali.TFT_Set12.png"
+    }
+  },
+  "Ashe": {
+    "id": "Ashe",
+    "name": "Ashe",
+    "tier": 1,
+    "image": {
+      "full": "TFT12_Ashe.TFT_Set12.png"
+    }
+  },
+  "Bard": {
+    "id": "Bard",
+    "name": "Bard",
+    "tier": 3,
+    "image": {
+      "full": "TFT12_Bard.TFT_Set12.png"
+    }
+  },
+  "Blitzcrank": {
+    "id": "Blitzcrank",
+    "name": "Blitzcrank",
+    "tier": 1,
+    "image": {
+      "full": "TFT12_Blitzcrank.TFT_Set12.png"
+    }
+  },
+  "Briar": {
+    "id": "Briar",
+    "name": "Briar",
+    "tier": 5,
+    "image": {
+      "full": "TFT12_Briar.TFT_Set12.png"
+    }
+  },
+  "Camille": {
+    "id": "Camille",
+    "name": "Camille",
+    "tier": 5,
+    "image": {
+      "full": "TFT12_Camille.TFT_Set12.png"
+    }
+  },
+  "Cassiopeia": {
+    "id": "Cassiopeia",
+    "name": "Cassiopeia",
+    "tier": 2,
+    "image": {
+      "full": "TFT12_Cassiopeia.TFT_Set12.png"
+    }
+  },
+  "Diana": {
+    "id": "Diana",
+    "name": "Diana",
+    "tier": 5,
+    "image": {
+      "full": "TFT12_Diana.TFT_Set12.png"
+    }
+  },
+  "Elise": {
+    "id": "Elise",
+    "name": "Elise",
+    "tier": 1,
+    "image": {
+      "full": "TFT12_Elise.TFT_Set12.png"
+    }
+  },
+  "Ezreal": {
+    "id": "Ezreal",
+    "name": "Ezreal",
+    "tier": 3,
+    "image": {
+      "full": "TFT12_Ezreal.TFT_Set12.png"
+    }
+  },
+  "Fiora": {
+    "id": "Fiora",
+    "name": "Fiora",
+    "tier": 4,
+    "image": {
+      "full": "TFT12_Fiora.TFT_Set12.png"
+    }
+  },
+  "Galio": {
+    "id": "Galio",
+    "name": "Galio",
+    "tier": 2,
+    "image": {
+      "full": "TFT12_Galio.TFT_Set12.png"
+    }
+  },
+  "Gwen": {
+    "id": "Gwen",
+    "name": "Gwen",
+    "tier": 4,
+    "image": {
+      "full": "TFT12_Gwen.TFT_Set12.png"
+    }
+  },
+  "Hecarim": {
+    "id": "Hecarim",
+    "name": "Hecarim",
+    "tier": 3,
+    "image": {
+      "full": "TFT12_Hecarim.TFT_Set12.png"
+    }
+  },
+  "Hwei": {
+    "id": "Hwei",
+    "name": "Hwei",
+    "tier": 3,
+    "image": {
+      "full": "TFT12_Hwei.TFT_Set12.png"
+    }
+  },
+  "Jax": {
+    "id": "Jax",
+    "name": "Jax",
+    "tier": 1,
+    "image": {
+      "full": "TFT12_Jax.TFT_Set12.png"
+    }
+  },
+  "Jayce": {
+    "id": "Jayce",
+    "name": "Jayce",
+    "tier": 1,
+    "image": {
+      "full": "TFT12_Jayce.TFT_Set12.png"
+    }
+  },
+  "Jinx": {
+    "id": "Jinx",
+    "name": "Jinx",
+    "tier": 3,
+    "image": {
+      "full": "TFT12_Jinx.TFT_Set12.png"
+    }
+  },
+  "Kalista": {
+    "id": "Kalista",
+    "name": "Kalista",
+    "tier": 4,
+    "image": {
+      "full": "TFT12_Kalista.TFT_Set12.png"
+    }
+  },
+  "Karma": {
+    "id": "Karma",
+    "name": "Karma",
+    "tier": 4,
+    "image": {
+      "full": "TFT12_Karma.TFT_Set12.png"
+    }
+  },
+  "Kassadin": {
+    "id": "Kassadin",
+    "name": "Kassadin",
+    "tier": 2,
+    "image": {
+      "full": "TFT12_Kassadin.TFT_Set12.png"
+    }
+  },
+  "Katarina": {
+    "id": "Katarina",
+    "name": "Katarina",
+    "tier": 3,
+    "image": {
+      "full": "TFT12_Katarina.TFT_Set12.png"
+    }
+  },
+  "KogMaw": {
+    "id": "KogMaw",
+    "name": "KogMaw",
+    "tier": 2,
+    "image": {
+      "full": "TFT12_KogMaw.TFT_Set12.png"
+    }
+  },
+  "Lillia": {
+    "id": "Lillia",
+    "name": "Lillia",
+    "tier": 1,
+    "image": {
+      "full": "TFT12_Lillia.TFT_Set12.png"
+    }
+  },
+  "Milio": {
+    "id": "Milio",
+    "name": "Milio",
+    "tier": 5,
+    "image": {
+      "full": "TFT12_Milio.TFT_Set12.png"
+    }
+  },
+  "Mordekaiser": {
+    "id": "Mordekaiser",
+    "name": "Mordekaiser",
+    "tier": 3,
+    "image": {
+      "full": "TFT12_Mordekaiser.TFT_Set12.png"
+    }
+  },
+  "Morgana": {
+    "id": "Morgana",
+    "name": "Morgana",
+    "tier": 5,
+    "image": {
+      "full": "TFT12_Morgana.TFT_Set12.png"
+    }
+  },
+  "Nami": {
+    "id": "Nami",
+    "name": "Nami",
+    "tier": 4,
+    "image": {
+      "full": "TFT12_Nami.TFT_Set12.png"
+    }
+  },
+  "Nasus": {
+    "id": "Nasus",
+    "name": "Nasus",
+    "tier": 4,
+    "image": {
+      "full": "TFT12_Nasus.TFT_Set12.png"
+    }
+  },
+  "Neeko": {
+    "id": "Neeko",
+    "name": "Neeko",
+    "tier": 3,
+    "image": {
+      "full": "TFT12_Neeko.TFT_Set12.png"
+    }
+  },
+  "Nilah": {
+    "id": "Nilah",
+    "name": "Nilah",
+    "tier": 2,
+    "image": {
+      "full": "TFT12_Nilah.TFT_Set12.png"
+    }
+  },
+  "Nomsy": {
+    "id": "Nomsy",
+    "name": "Nomsy",
+    "tier": 1,
+    "image": {
+      "full": "TFT12_Nomsy.TFT_Set12.png"
+    }
+  },
+  "Norra": {
+    "id": "Norra",
+    "name": "Norra",
+    "tier": 5,
+    "image": {
+      "full": "TFT12_Norra.TFT_Set12.png"
+    }
+  },
+  "Nunu": {
+    "id": "Nunu",
+    "name": "Nunu",
+    "tier": 2,
+    "image": {
+      "full": "TFT12_Nunu.TFT_Set12.png"
+    }
+  },
+  "Olaf": {
+    "id": "Olaf",
+    "name": "Olaf",
+    "tier": 4,
+    "image": {
+      "full": "TFT12_Olaf.TFT_Set12.png"
+    }
+  },
+  "Poppy": {
+    "id": "Poppy",
+    "name": "Poppy",
+    "tier": 1,
+    "image": {
+      "full": "TFT12_Poppy.TFT_Set12.png"
+    }
+  },
+  "Rakan": {
+    "id": "Rakan",
+    "name": "Rakan",
+    "tier": 4,
+    "image": {
+      "full": "TFT12_Rakan.TFT_Set12.png"
+    }
+  },
+  "Rumble": {
+    "id": "Rumble",
+    "name": "Rumble",
+    "tier": 2,
+    "image": {
+      "full": "TFT12_Rumble.TFT_Set12.png"
+    }
+  },
+  "Ryze": {
+    "id": "Ryze",
+    "name": "Ryze",
+    "tier": 4,
+    "image": {
+      "full": "TFT12_Ryze.TFT_Set12.png"
+    }
+  },
+  "Seraphine": {
+    "id": "Seraphine",
+    "name": "Seraphine",
+    "tier": 1,
+    "image": {
+      "full": "TFT12_Seraphine.TFT_Set12.png"
+    }
+  },
+  "Shen": {
+    "id": "Shen",
+    "name": "Shen",
+    "tier": 3,
+    "image": {
+      "full": "TFT12_Shen.TFT_Set12.png"
+    }
+  },
+  "Shyvana": {
+    "id": "Shyvana",
+    "name": "Shyvana",
+    "tier": 2,
+    "image": {
+      "full": "TFT12_Shyvana.TFT_Set12.png"
+    }
+  },
+  "Smolder": {
+    "id": "Smolder",
+    "name": "Smolder",
+    "tier": 5,
+    "image": {
+      "full": "TFT12_Smolder.TFT_Set12.png"
+    }
+  },
+  "Soraka": {
+    "id": "Soraka",
+    "name": "Soraka",
+    "tier": 1,
+    "image": {
+      "full": "TFT12_Soraka.TFT_Set12.png"
+    }
+  },
+  "Swain": {
+    "id": "Swain",
+    "name": "Swain",
+    "tier": 3,
+    "image": {
+      "full": "TFT12_Swain.TFT_Set12.png"
+    }
+  },
+  "Syndra": {
+    "id": "Syndra",
+    "name": "Syndra",
+    "tier": 2,
+    "image": {
+      "full": "TFT12_Syndra.TFT_Set12.png"
+    }
+  },
+  "Tahm Kench": {
+    "id": "Tahm Kench",
+    "name": "Tahm Kench",
+    "tier": 4,
+    "image": {
+      "full": "TFT12_Tahm Kench.TFT_Set12.png"
+    }
+  },
+  "Taric": {
+    "id": "Taric",
+    "name": "Taric",
+    "tier": 4,
+    "image": {
+      "full": "TFT12_Taric.TFT_Set12.png"
+    }
+  },
+  "Tristana": {
+    "id": "Tristana",
+    "name": "Tristana",
+    "tier": 2,
+    "image": {
+      "full": "TFT12_Tristana.TFT_Set12.png"
+    }
+  },
+  "Twitch": {
+    "id": "Twitch",
+    "name": "Twitch",
+    "tier": 1,
+    "image": {
+      "full": "TFT12_Twitch.TFT_Set12.png"
+    }
+  },
+  "Varus": {
+    "id": "Varus",
+    "name": "Varus",
+    "tier": 4,
+    "image": {
+      "full": "TFT12_Varus.TFT_Set12.png"
+    }
+  },
+  "Veigar": {
+    "id": "Veigar",
+    "name": "Veigar",
+    "tier": 3,
+    "image": {
+      "full": "TFT12_Veigar.TFT_Set12.png"
+    }
+  },
+  "Vex": {
+    "id": "Vex",
+    "name": "Vex",
+    "tier": 3,
+    "image": {
+      "full": "TFT12_Vex.TFT_Set12.png"
+    }
+  },
+  "Warwick": {
+    "id": "Warwick",
+    "name": "Warwick",
+    "tier": 1,
+    "image": {
+      "full": "TFT12_Warwick.TFT_Set12.png"
+    }
+  },
+  "Wukong": {
+    "id": "Wukong",
+    "name": "Wukong",
+    "tier": 3,
+    "image": {
+      "full": "TFT12_Wukong.TFT_Set12.png"
+    }
+  },
+  "Xerath": {
+    "id": "Xerath",
+    "name": "Xerath",
+    "tier": 5,
+    "image": {
+      "full": "TFT12_Xerath.TFT_Set12.png"
+    }
+  },
+  "Ziggs": {
+    "id": "Ziggs",
+    "name": "Ziggs",
+    "tier": 1,
+    "image": {
+      "full": "TFT12_Ziggs.TFT_Set12.png"
+    }
+  },
+  "Zilean": {
+    "id": "Zilean",
+    "name": "Zilean",
+    "tier": 2,
+    "image": {
+      "full": "TFT12_Zilean.TFT_Set12.png"
+    }
+  },
+  "Zoe": {
+    "id": "Zoe",
+    "name": "Zoe",
+    "tier": 1,
+    "image": {
+      "full": "TFT12_Zoe.TFT_Set12.png"
+    }
+  }
+}
