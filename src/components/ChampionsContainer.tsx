@@ -27,7 +27,7 @@ export function ChampionsContainer({
   solution,
   traits,
 }: ChampionsContainerProps) {
-  const campeoes: Campeoes = useMemo(() => ChampionsData, [ChampionsData]);
+  const campeoes: Campeoes = useMemo(() => ChampionsData, []);
 
   return (
     <>
@@ -40,7 +40,7 @@ export function ChampionsContainer({
                   championData={{
                     name: champion.id,
                     cost: champion.tier,
-                    image: `/assets/championsImages/${
+                    image: `/assets/championsImages${process.env.WHICH_SET}/${
                       campeoes[champion.id].image.full
                     }`,
                   }}
@@ -74,9 +74,9 @@ export function ChampionsContainer({
                         sx={{ transform: "translate(-50%, -50%)" }}
                       >
                         <img
-                          src={`/assets/traitsImages/${traits[
-                            parseInt(id)
-                          ].name.toLowerCase()}.png`}
+                          src={`/assets/traitsImages${
+                            process.env.WHICH_SET
+                          }/${traits[parseInt(id)].name.toLowerCase()}.png`}
                           width={"32px"}
                           height={"32px"}
                         />
