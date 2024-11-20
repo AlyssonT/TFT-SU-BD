@@ -13,7 +13,7 @@ const champsNames = [...document.querySelectorAll(".m-1xvjosc")].map((elem) => {
   });
   console.log(champsCost);
   
-  const SET = 12;
+  const SET = 13;
   const champJson = {};
   
   champsNames.forEach((champ, index) => {
@@ -33,7 +33,7 @@ const champsNames = [...document.querySelectorAll(".m-1xvjosc")].map((elem) => {
   const url = URL.createObjectURL(blob);
   
   const link = document.createElement("a");
-  link.download = "champions12.json";
+  link.download = `champions${SET}.json`;
   link.href = url;
   link.click();
   

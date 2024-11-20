@@ -1,6 +1,6 @@
 import { Box, Grid, Paper, Stack, Tooltip, Typography } from "@mui/material";
 import { ChampionCard } from "./ChampionCard";
-import ChampionsData from "../data/champions12.json";
+import ChampionsData from "../data/champions13.json";
 import { useMemo } from "react";
 import { Solution } from "../data/types/Solution";
 import { Trait } from "../data/types/Trait";
@@ -40,7 +40,7 @@ export function ChampionsContainer({
                   championData={{
                     name: champion.id,
                     cost: champion.tier,
-                    image: `/assets/championsImages12/${
+                    image: `/assets/championsImages13/${
                       campeoes[champion.id].image.full
                     }`,
                   }}
@@ -74,7 +74,7 @@ export function ChampionsContainer({
                         sx={{ transform: "translate(-50%, -50%)" }}
                       >
                         <img
-                          src={`/assets/traitsImages12/${traits[
+                          src={`/assets/traitsImages13/${traits[
                             parseInt(id)
                           ].name.toLowerCase()}.png`}
                           width={"32px"}

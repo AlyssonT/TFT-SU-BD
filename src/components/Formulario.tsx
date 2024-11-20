@@ -23,7 +23,7 @@ interface FormularioProps {
 
 export function Formulario({ handleSolution }: FormularioProps) {
   const [nChampions, setNChampions] = useState<number | "">(1);
-  const [augment, setAugment] = useState("standUnited");
+  const [augment, setAugment] = useState("builtDifferent");
   const [highTier, setHighTier] = useState(false);
   const [tierCoefficient, setTierCoefficient] = useState(1.0);
   const [isLoading, setIsLoading] = useState(false);
@@ -167,7 +167,7 @@ export function Formulario({ handleSolution }: FormularioProps) {
             <FormControl>
               <FormLabel>Select Augment</FormLabel>
               <RadioGroup
-                defaultValue="standUnited"
+                defaultValue="builtDifferent"
                 name="radio-buttons-group"
                 onChange={handleRadioChange}
               >
@@ -175,6 +175,7 @@ export function Formulario({ handleSolution }: FormularioProps) {
                   value="standUnited"
                   control={<Radio />}
                   label="Stand United"
+                  disabled
                 />
                 <FormControlLabel
                   value="builtDifferent"
@@ -190,7 +191,7 @@ export function Formulario({ handleSolution }: FormularioProps) {
               disabled={isLoading}
               endIcon={isLoading && <CircularProgress size={15} />}
             >
-              Generate
+              {isLoading ? "Generating..." : "Generate"}
             </Button>
           </Stack>
         </Paper>
