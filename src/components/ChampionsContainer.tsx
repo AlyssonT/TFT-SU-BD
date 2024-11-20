@@ -76,7 +76,7 @@ export function ChampionsContainer({
                         <img
                           src={`/assets/traitsImages13/${traits[
                             parseInt(id)
-                          ].name.toLowerCase()}.png`}
+                          ].name.replace(" ", "").toLowerCase()}.png`}
                           width={"32px"}
                           height={"32px"}
                         />

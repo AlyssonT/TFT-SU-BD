@@ -79,7 +79,7 @@
         "full": "TFT13_Draven.TFT_Set13.png"
       }
     },
-    "Dr. Mundo": {
+    "DrMundo": {
       "id": "Dr. Mundo",
       "name": "Dr. Mundo",
       "tier": 4,
@@ -279,7 +279,7 @@
         "full": "TFT13_Rell.TFT_Set13.png"
       }
     },
-    "Renata Glasc": {
+    "RenataGlasc": {
       "id": "Renata Glasc",
       "name": "Renata Glasc",
       "tier": 2,
@@ -383,7 +383,7 @@
         "full": "TFT13_Trundle.TFT_Set13.png"
       }
     },
-    "Twisted Fate": {
+    "TwistedFate": {
       "id": "Twisted Fate",
       "name": "Twisted Fate",
       "tier": 3,
